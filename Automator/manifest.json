@@ -6,11 +6,11 @@
     "content_scripts": 
         [{
             "matches": ["https://*/*"],
-            "js": ["Content.js"]
+            "js": ["src/Content.js"]
         }],
     "action": 
     {
-       "default_popup": "popup.html" ,
+       "default_popup": "ui/popup.html" ,
        "default_title": "Automator"
     } 
 }
